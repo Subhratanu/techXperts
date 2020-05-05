@@ -1,0 +1,112 @@
+@charset "utf-8";
+*
+{
+	margin:0;
+	padding:0;
+}
+.container
+{
+	width:100%;
+	height:667px;
+	background:linear-gradient(to bottom left, #f5b200 0, #fc636b 75%);
+}
+.circle{
+  position:absolute;
+  height:130px;
+  width:20%;
+  border-radius:50%;
+  margin-left:40%;
+  top: -45px;
+  background-image:url(1.gif);
+  background-position:center;
+  background-size:cover;
+  background-repeat:no-repeat;
+}
+
+.rectangle{
+  position:relative;
+  display:block;
+  height:550px;
+  width:50%;
+  background-color:rgba(255,255,255,.2);
+  margin-top:50px;
+}
+
+h2.text{
+	font-family: 'Open Sans', sans-serif;
+	font-size:40px;
+	
+}
+span
+{
+	letter-spacing:3px;
+	font-size:50px;
+	color:rgba(204,0,0,1);
+}
+input[type="email"]
+{
+	width:40%;
+	height:20px;
+	border-radius:10px;
+	border:1px solid white;
+	background-color:rgba(255,255,255,.8);
+
+	
+}
+input[type="password"]
+{
+	width:40%;
+	height:20px;
+	border-radius:10px;
+	border:1px solid white;
+	background-color:rgba(255,255,255,.8);
+	
+}
+input[type="submit"]
+{
+	width:18%;
+	height:40px;
+	border-radius:7px;
+	padding:5px 5px;
+	background-color:rgba(0,102,255,1);
+	letter-spacing:2px;
+	font-size:14px;
+	color:rgba(255,255,255,1);
+	font-family: 'Open Sans', sans-serif;
+	cursor:pointer;
+	border:none;
+}
+button
+{
+	width:12%;
+	height:25px;
+	border-radius:7px;
+	padding:2px 2px;
+	background-color:rgba(51,0,255,0.7);
+	letter-spacing:2px;
+	font-size:10px;
+	color:rgba(255,255,255,1);
+	font-family: 'Open Sans', sans-serif;
+	cursor:pointer;
+	border:none;
+}
+label
+{
+	letter-spacing:3px;
+	font-size:15px;
+	color:rgba(204,0,102,1) ;
+	font-family: 'Open Sans', sans-serif;
+	margin-left:-10%;
+}
+P
+{
+	letter-spacing:2px;
+	font-size:13px;
+	color:rgba(51,51,51,1);
+	font-family: 'Open Sans', sans-serif;
+}
+a
+{
+	text-decoration:none;
+}/* CSS Document */
+
